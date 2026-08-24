@@ -8,27 +8,27 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Zixu (Lucas) Ding / 丁子栩"
+title                    : "Academic Portfolio"
 title_separator          : "-"
-name                     : &name "Zixu (Lucas) Ding"
-description              : &description "Electronics enthusiast, but with herniated disc :("
-url                      : https://aialra-0.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+name                     : &name "Portfolio Owner"
+description              : &description "Research, publications, teaching, talks, and project portfolio"
+url                      : "" # set this in the deployment configuration when an explicit canonical URL is required
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "aialra-0.github.io"
+repository               : "" # use "account-name/repository-name" when GitHub metadata is required
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Zixu (Lucas) Ding"
-  pronouns         : "he/him"  
-  bio              : "Undergraduate Computer & Systems Engineering at RPI, Class of 2026"
-  location         : "Troy, NY, 12180"
-  employer         : "Rensselaer Polytechnic Institute (RPI)"
+  avatar           : "bio-photo.jpg"
+  name             : "Portfolio Owner"
+  pronouns         :
+  bio              : "Research, publications, teaching, talks, and project portfolio"
+  location         : "Location withheld"
+  employer         : "Affiliation withheld"
   uri              : # URL
-  email            : "test@example.invalid" 
+  email            : "contact@example.invalid"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -44,7 +44,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "aialra-0"
+  github           :
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
